@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: snow;
+}
+
+
+/*     Header starts here      */
+
+header {
+   
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(10, 8, 34);
+    height: 70px;
+    font-size: 20px;
+        a{
+            color: #fff;
+        }
+     
+}
+.header-left {
+    margin-top: 5px;
+    display: flex;  
+     .icon-back {
+         font-size: 150%;
+         margin-top: 18px;
+         margin-left: 20px;
+     }
+
+     .header-left-text{
+         margin-left: 5px;
+            P{
+                padding: 0;
+                margin: 0;
+                margin-top: 10px;
+                font-size: 100%;
+                
+            }
+
+            span{
+                font-size: 60%;
+                margin-left: 3px;
+            }
+     
+
+     }
+    
+   
+}
+
+.header-right {
+    display: flex;
+        p{
+            font-size: 70%;
+          
+            margin-top: 30px;
+        }
+        .icon-down {
+            margin-top: 32px;
+            margin-right: 80px;
+            font-size: 80%;
+            padding-left: 5px;
+        }
+
+        .icon-close {
+            margin-top: 26px;
+            font-size: 120%;
+            margin-right: 20px;
+        }
+}
+
+/*     Header ends here      */
+
+
+
+/****** time & data starts here ******/
+
+
+
+.time-data {
+   padding: 2px;
+ 
+    background-color: rgb(21, 55, 100);
+    margin-bottom: 20px;
+    padding-left: 30px;
+        p{                
+            font-size: 80%;
+        }
+}
