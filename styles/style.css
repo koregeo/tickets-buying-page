@@ -81,11 +81,220 @@ header a {
 .time-data {
   padding: 2px;
   background-color: #153764;
-  margin-bottom: 20px;
   padding-left: 30px;
 }
 
 .time-data p {
   font-size: 80%;
 }
+
+/****** time & data ends here ******/
+/****** seats starts here ******/
+.seats {
+  background-color: #2c4463;
+}
+
+.seats .ticket-top {
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.seats .ticket-top .ticket-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 800px;
+  border-bottom: solid 1px grey;
+  font-size: 80%;
+  padding-top: 10px;
+}
+
+.seats .sector-a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 33px;
+}
+
+.seats .sector-a p {
+  margin-top: 20px;
+}
+
+.seats .sector-a ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-right: 32px;
+}
+
+.seats .sector-a ul .avaliable {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  font-size: 70%;
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+}
+
+.seats .sector-a ul .avaliable:hover {
+  background-color: #153764;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: background-color, border-color, color, fill, stroke;
+  transition-property: background-color, border-color, color, fill, stroke;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: blanchedalmond;
+}
+
+.seats .sector-a ul .free-space {
+  color: #2c4463;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.seats .sector-a ul .reserved {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  font-size: 70%;
+  border-radius: 4px;
+  color: white;
+  background-color: #61605e;
+}
+
+.seats .sector-a ul .selected {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  font-size: 70%;
+  border-radius: 4px;
+  background-color: #153764;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-property: background-color, border-color, color, fill, stroke;
+  transition-property: background-color, border-color, color, fill, stroke;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  color: blanchedalmond;
+}
+
+.seats .screen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 30px;
+}
+
+.seats .screen .screen-child {
+  background-color: whitesmoke;
+  margin-top: 80px;
+  width: 280px;
+  height: 80px;
+  border-radius: 5px;
+}
+
+/****** seats ends here ******/
+/****** footer starts here ******/
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #0f1113;
+  height: 150px;
+}
+
+.footer p {
+  margin-left: 40px;
+  width: 26px;
+  height: 26px;
+  margin-right: 8px;
+  border-radius: 4px;
+}
+
+.footer .reserved-seat {
+  background-color: #61605e;
+}
+
+.footer .avaliable-seat {
+  background-color: white;
+}
+
+.footer .selected-seat {
+  background-color: #153764;
+}
+
+/****** footer ends here ******/
 /*# sourceMappingURL=style.css.map */

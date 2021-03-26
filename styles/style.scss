@@ -81,12 +81,180 @@ header {
 
 
 .time-data {
-   padding: 2px;
- 
-    background-color: rgb(21, 55, 100);
-    margin-bottom: 20px;
+   padding: 2px; 
+    background-color: rgb(21, 55, 100);   
     padding-left: 30px;
         p{                
             font-size: 80%;
         }
 }
+
+/****** time & data ends here ******/
+
+
+
+
+/****** seats starts here ******/
+
+.seats {
+   
+    background-color: rgb(44, 68, 99);
+    
+
+   
+        .ticket-top {
+            padding-bottom: 20px;
+            
+            display: flex;
+            justify-content: center;
+                .ticket-price {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 800px;
+                    border-bottom: solid 1px grey;
+                    font-size: 80%;
+                    padding-top: 10px;
+                   
+                    
+                }
+          
+        } 
+
+        .sector-a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 33px;
+
+              p{
+                        margin-top: 20px;
+                    }
+           
+                ul {
+                    display: flex;
+                    flex-direction: row;
+                    margin-right: 32px;
+
+                  
+                    
+                    
+                    
+
+                        .avaliable{
+                            display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 8px;
+                            font-size: 70%;
+                            background-color: white;
+                            border-radius: 4px;
+                            color: black;   
+
+                                &:hover {
+                                    background-color: rgb(21, 55, 100);  
+                                    transition-duration: 250ms;
+                                    transition-property: background-color, border-color, color, fill, stroke;
+                                    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);                                                               
+                                    color: blanchedalmond;
+                                }
+                        }
+
+                        .free-space{
+                            color: rgb(44, 68, 99);
+                             display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 8px;   
+   
+                        }
+
+                        .reserved {
+                             display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 8px;
+                            font-size: 70%;                            
+                            border-radius: 4px;
+                            color: white;   
+                            background-color: rgb(97, 96, 94);
+                        }
+                        .selected {
+                                      display: inline-flex;
+                            align-items: center;
+                            justify-content: center;
+                            width: 24px;
+                            height: 24px;
+                            margin-right: 8px;
+                            font-size: 70%;                            
+                            border-radius: 4px;
+                            background-color: rgb(21, 55, 100);  
+                            transition-duration: 250ms;
+                            transition-property: background-color, border-color, color, fill, stroke;
+                            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);                                                               
+                            color: blanchedalmond;
+
+                        }
+                   
+
+                }
+        }
+
+        .screen {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding-bottom: 30px;
+                .screen-child {
+                    background-color: whitesmoke;
+                    margin-top: 80px;
+                    width: 280px;
+                    height: 80px;
+                    border-radius: 5px;
+
+
+
+                }
+        }
+}
+
+/****** seats ends here ******/
+
+
+
+/****** footer starts here ******/
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(15, 17, 19);  
+    height: 150px;   
+            p{
+                margin-left: 40px;
+                width: 26px;
+                height: 26px;
+                margin-right: 8px;
+                border-radius: 4px;
+            }
+        
+            .reserved-seat{              
+                background-color: rgb(97, 96, 94);
+            }
+            .avaliable-seat {
+                background-color: white
+            }
+            .selected-seat{
+                background-color: rgb(21, 55, 100);  
+            }     
+        
+}
+
+/****** footer ends here ******/
